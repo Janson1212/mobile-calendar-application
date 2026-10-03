@@ -6,20 +6,6 @@ all backed by visual performance analytics.
 Interface Architecture
 The screen layout is optimized for quick filtering and intuitive navigation, using a standard mobile architecture:
 
-Plaintext
-+--------------------------------------------------+
-|                   NOV-22                         |  <-- Static Header
-+--------------------------------------------------+
-| [Today]  [This Week]  [This Month]  [One-Time]   |  <-- Swipeable Timeframe Filters
-+--------------------------------------------------+
-|                                                  |
-|                                                  |
-|                 Main Content Area                |
-|           (Tasks / Calendar / Graphs)            |
-|                                                  |
-+--------------------------------------------------+
-|      [ Tasks ]    [ Overview ]    [ Statistics ] |  <-- Bottom Navigation Bar
-+--------------------------------------------------+
 Fixed Top Date Bar: Displays the current date (e.g., NOV-22) permanently pinned across all views.
 
 Timeframe Filter Pills: A swipeable horizontal row directly beneath the date. This allows users to rapidly filter the Main Content Area by Today, This Week, This Month, or view standalone One-Time tasks.
